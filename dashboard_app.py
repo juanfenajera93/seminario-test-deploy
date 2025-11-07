@@ -6,7 +6,7 @@ import requests
 st.set_page_config(layout="wide")
 
 # las URLs 
-API_BASE_URL = "http://localhost:8000"
+API_BASE_URL = "https://api-seminario-servicio-5768698724.us-central1.run.app"
 API_URL_PREDICT = f"{API_BASE_URL}/ml/predict"
 API_URL_FILTROS = f"{API_BASE_URL}/eda/filters"
 API_URL_DATOS_EDA = f"{API_BASE_URL}/eda/data_specific_filters"
